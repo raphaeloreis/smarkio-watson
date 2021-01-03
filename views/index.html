@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <title>SMARKIO - Watson</title>
+        <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' rel='stylesheet'>
+        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+        <link href='/css/style.css' rel='stylesheet'>
+        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+        <script type='text/javascript' src='https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js'></script>
+        <script type="text/javascript" src="/js/readComments.js"></script>
+        <script type="text/javascript" src="/js/loadComments.js"></script>
+        <script type="text/javascript" src="/js/createComments.js"></script>
+        <script type='text/javascript'></script>
+    </head>
+    <body oncontextmenu='return false' class='snippet-body'>
+        <nav class="navbar navbar-dark navbar-custom"><img src="/images/smarkio-h22.png" alt=""> <span style="margin-left: auto;" class="navbar-brand" href="#">Watson Text to Speech</span> 
+        </nav>
+        <!-- Main Body -->
+        <section class="mt-4">
+            <div class="container">
+                <div class="row">
+                    <h1>Comentários</h1>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-4">
+                        <form id="formComments">
+                            <div class="form-group">
+                                <h4>Deixe um Comentário</h4>
+                                <label for="message">Ele será lido pelo IBM Watson</label>
+                                <textarea name="comment" id="inputComentario" msg cols="30" rows="5" class="form-control textarea" ></textarea>
+                            </div>
+                            <div class="form-group"> <button type="button" id="submit" class="btn">Cadastrar</button> </div>
+                        </form>
+                    </div>
+                    <div class="col-6" id="divComments">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

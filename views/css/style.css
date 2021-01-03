@@ -1,0 +1,105 @@
+.navbar-nav {
+    width: 100%
+}
+
+
+.navbar-custom{
+    background-color: #202a44 ;
+}
+
+.btn {
+    margin: 10px;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #455a93;
+    border-color:#171e31;
+    color:white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 13px;
+    width: 50%;
+}
+
+body {
+    background-color: #2e3c61;
+}
+
+.comment {
+    border: 1px solid #171e31;
+    background-color: #202a44;
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px;
+    margin-top: 5%;
+    
+}
+
+.comment:nth-child(even) {
+    border: 1px solid #455a93;
+    background-color: #171e31;
+    float: right;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px
+}
+
+.comment h4,
+.comment span{
+    display: inline
+}
+
+.comment p,
+.comment span,
+.darker p,
+.darker span {
+    color:white;
+}
+
+h1,
+h4 {
+    color:white;
+    font-weight: bold
+}
+
+label {
+    color:white;
+}
+
+#align-form {
+    margin-top: 20px
+}
+
+.form-group p a {
+    color:white;
+}
+
+#checkbx {
+    background-color: #171e31
+}
+
+#darker img {
+    margin-right: 15px;
+    position: static
+}
+
+.form-group input,
+.form-group .textarea {
+    background-color: #171e31;
+    background: #171e31;
+    border: 1px solid #171e31;
+    border-radius: 12px;
+    color: white;
+    
+}
+
+form {
+    border: 1px solid #171e31;
+    background-color: #202a44;
+    border-radius: 5px;
+    padding: 20px
+}
